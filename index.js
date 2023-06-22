@@ -153,7 +153,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/fire", (req, res) => {
-  res.json(fireData);
+  res.json(firesData);
 });
 app.get("/soil", (req, res) => {
   res.json(soilData);
